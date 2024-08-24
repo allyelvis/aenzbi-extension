@@ -1,0 +1,11 @@
+{
+  "name": "aenzbi-extension",
+  "version": "1.0.0",
+  "description": "a chrome web extension for pos",
+  "main": "background.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Ally Elvis Nzeyimana",
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aenzbi Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Aenzbi Management</h1>
+  <form id="invoiceForm">
+    <label for="token">EBMS Token:</label><br>
+    <input type="text" id="token" name="token" required><br><br>
+    <label for="invoiceData">Invoice Data (JSON):</label><br>
+    <textarea id="invoiceData" name="invoiceData" rows="10" cols="30" required></textarea><br><br>
+    <input type="submit" value="Send Invoice">
+  </form>
+  <div id="response"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
